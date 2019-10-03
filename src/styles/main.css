@@ -1,0 +1,37 @@
+body {
+    background-color: cornflowerblue;
+    font-family: Helvetica, sans-serif;
+    
+
+}
+
+h1 {
+    color: whitesmoke;
+    font-weight: 800;
+}
+
+img {
+    height: 50px;
+}
+
+
+.nav {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    
+}
+
+.animal {
+    display: flex;
+    flex-basis: 25%;
+    flex-direction: column;
+    justify-content: space-around;
+}
